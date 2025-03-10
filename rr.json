@@ -1,0 +1,442 @@
+[
+    {
+        "ville": "Banque Casablanca - Maarif",
+        "results": [
+            {
+                "name": "places/ChIJ60ae2urSpw0R25KUNm6Gcwg",
+                "types": [
+                    "bank",
+                    "finance",
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "formattedAddress": "Rue Abou Abdellah Nafii, Casablanca 20250, Morocco",
+                "location": {
+                    "latitude": 33.5855823,
+                    "longitude": -7.6336550999999995
+                },
+                "rating": 2.1,
+                "displayName": {
+                    "text": "Bank Of Africa, Agence Al Massira, Maarif.",
+                    "languageCode": "fr"
+                },
+                "reviews": [
+                    {
+                        "name": "places/ChIJ60ae2urSpw0R25KUNm6Gcwg/reviews/ChdDSUhNMG9nS0VJQ0FnSURmeGNlNWp3RRAB",
+                        "relativePublishTimeDescription": "2 months ago",
+                        "rating": 2,
+                        "text": {
+                            "text": "The staff, particularly the client service representative, is friendly and approachable, which is a positive aspect of this branch. However, the bank\u2019s system seems to be perpetually down, creating a frustrating experience for customers. Clients are forced to wait for extended periods without being able to complete their transactions. This recurring issue reflects poorly on the bank\u2019s efficiency and reliability. It\u2019s essential for the management to address these system problems to ensure smoother operations and better customer service.",
+                            "languageCode": "en"
+                        },
+                        "originalText": {
+                            "text": "The staff, particularly the client service representative, is friendly and approachable, which is a positive aspect of this branch. However, the bank\u2019s system seems to be perpetually down, creating a frustrating experience for customers. Clients are forced to wait for extended periods without being able to complete their transactions. This recurring issue reflects poorly on the bank\u2019s efficiency and reliability. It\u2019s essential for the management to address these system problems to ensure smoother operations and better customer service.",
+                            "languageCode": "en"
+                        },
+                        "authorAttribution": {
+                            "displayName": "Aya belhaj",
+                            "uri": "https://www.google.com/maps/contrib/107421359037514964284/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKsEM1BmOzHCcXf3E7hqwxwb_Pqunr2UDd-4hvPI9FWSWzn9A=s128-c0x00000000-cc-rp-mo"
+                        },
+                        "publishTime": "2025-01-08T14:15:54.470850Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURmeGNlNWp3RRAB&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURmeGNlNWp3RRAB!2m1!1s0xda7d2eada9e46eb:0x873866e369492db"
+                    },
+                    {
+                        "name": "places/ChIJ60ae2urSpw0R25KUNm6Gcwg/reviews/ChdDSUhNMG9nS0VJQ0FnSURqcnNhWDVBRRAB",
+                        "relativePublishTimeDescription": "10 months ago",
+                        "rating": 1,
+                        "text": {
+                            "text": "The worst, very unfriendly customer service. If you don\u2019t like your job just go find another job.",
+                            "languageCode": "en"
+                        },
+                        "originalText": {
+                            "text": "The worst, very unfriendly customer service. If you don\u2019t like your job just go find another job.",
+                            "languageCode": "en"
+                        },
+                        "authorAttribution": {
+                            "displayName": "celien sierens",
+                            "uri": "https://www.google.com/maps/contrib/117174124669931076309/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVCuN-Xni5bUI26H7eajaiTkaL-rxpuKuCq0GO2mBsK264bFLIH=s128-c0x00000000-cc-rp-mo-ba2"
+                        },
+                        "publishTime": "2024-05-03T10:08:43.802004Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURqcnNhWDVBRRAB&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURqcnNhWDVBRRAB!2m1!1s0xda7d2eada9e46eb:0x873866e369492db"
+                    },
+                    {
+                        "name": "places/ChIJ60ae2urSpw0R25KUNm6Gcwg/reviews/ChZDSUhNMG9nS0VJQ0FnSUR2by1yc1dBEAE",
+                        "relativePublishTimeDescription": "2 months ago",
+                        "rating": 1,
+                        "text": {
+                            "text": "For a complaint about a staffing bug, I've been struggling for more than 3 months",
+                            "languageCode": "en-US"
+                        },
+                        "originalText": {
+                            "text": "Pour une r\u00e9clamation d'un bug de dotation ca fait plus de 3 mois que je gal\u00e9re",
+                            "languageCode": "fr"
+                        },
+                        "authorAttribution": {
+                            "displayName": "Driss Tahiri",
+                            "uri": "https://www.google.com/maps/contrib/107792823429503403152/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLmauhHG2JjKht4dSkVY0YNFy87qtqzhvIS6knLugNb_x6ZvA=s128-c0x00000000-cc-rp-mo"
+                        },
+                        "publishTime": "2024-12-23T15:08:19.852385Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUR2by1yc1dBEAE&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUR2by1yc1dBEAE!2m1!1s0xda7d2eada9e46eb:0x873866e369492db"
+                    },
+                    {
+                        "name": "places/ChIJ60ae2urSpw0R25KUNm6Gcwg/reviews/ChdDSUhNMG9nS0VJQ0FnSUNWbnB5VDVnRRAB",
+                        "relativePublishTimeDescription": "a year ago",
+                        "rating": 1,
+                        "text": {
+                            "text": "NO SYSTEM!!! If you plan to open an account there... RUN AWAY!! Impossible to withdraw my money for a week!!.. Official excuse: \u201cno system\u201d\u2026 What a shame for such a bank I am withdrawing all my BMCE accounts as soon as possible.",
+                            "languageCode": "en-US"
+                        },
+                        "originalText": {
+                            "text": "PAS DE SYST\u00c8ME!!! Si vous comptez y ouvrir un compte.. FUYEZ!! Impossible de retirer mon argent depuis une semaine!!.. Excuse officielle : \u00ab\u00a0pas de syst\u00e8me\u00a0\u00bb\u2026 Quelle honte pour une banque pareille je retire tous mes comptes de la BMCE d\u00e8s que possible.",
+                            "languageCode": "fr"
+                        },
+                        "authorAttribution": {
+                            "displayName": "Adil Joundy",
+                            "uri": "https://www.google.com/maps/contrib/113210298799486276252/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWyw4gcrqjx2zH6vanqvePtxY2uNdTqeTd3_BJB5eYBzNFqjSRO=s128-c0x00000000-cc-rp-mo-ba5"
+                        },
+                        "publishTime": "2023-12-07T09:03:21.905994Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNWbnB5VDVnRRAB&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNWbnB5VDVnRRAB!2m1!1s0xda7d2eada9e46eb:0x873866e369492db"
+                    },
+                    {
+                        "name": "places/ChIJ60ae2urSpw0R25KUNm6Gcwg/reviews/ChdDSUhNMG9nS0VJQ0FnSUR6ajlyczl3RRAB",
+                        "relativePublishTimeDescription": "8 months ago",
+                        "rating": 1,
+                        "text": {
+                            "text": "Non-professional service, for a period of 48 hours as specified by the advisor, and after 9 days I have not yet received the requested document \ud83d\ude15",
+                            "languageCode": "en-US"
+                        },
+                        "originalText": {
+                            "text": "Service non professionnel, pour un d\u00e9lai de 48h comme pr\u00e9cis\u00e9 par le conseiller, et apr\u00e8s 9j je n'ai pas encore eu le document demand\u00e9 \ud83d\ude15",
+                            "languageCode": "fr"
+                        },
+                        "authorAttribution": {
+                            "displayName": "Azzedine BENSAADA",
+                            "uri": "https://www.google.com/maps/contrib/106076605807039066837/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW71SST1QMRlootbVME2ol0yCw4Gp5No61Z0z6uqJDHyMBJ-Pbm=s128-c0x00000000-cc-rp-mo"
+                        },
+                        "publishTime": "2024-06-13T10:04:26.441308Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUR6ajlyczl3RRAB&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUR6ajlyczl3RRAB!2m1!1s0xda7d2eada9e46eb:0x873866e369492db"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJXVkE7ubSpw0RSg-nhsxk4fI",
+                "types": [
+                    "bank",
+                    "finance",
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "formattedAddress": "305 Boulevard Bir Anzarane, Casablanca 20100, Morocco",
+                "location": {
+                    "latitude": 33.5852644,
+                    "longitude": -7.6471396
+                },
+                "rating": 2.4,
+                "websiteUri": "http://www.gbp.ma/",
+                "displayName": {
+                    "text": "Banque Populaire Romandie",
+                    "languageCode": "fr"
+                },
+                "reviews": [
+                    {
+                        "name": "places/ChIJXVkE7ubSpw0RSg-nhsxk4fI/reviews/ChdDSUhNMG9nS0VJQ0FnSUNyamRUZTd3RRAB",
+                        "relativePublishTimeDescription": "8 months ago",
+                        "rating": 1,
+                        "text": {
+                            "text": "My dad had an account with them. He passed away and I wanted to take the money he had in his account by inheritance I submitted all the documents they asked for and I talked to the director of banque. The process took two months after I visited the agency seven time because the staff they don't know what to do also the process is so stupid and so long and staff work there makes it worse. If you have money don't put them in this bank. They make it easy when you want to open an account or make a deposit but the service or if you need help with something there nobody going to help.",
+                            "languageCode": "en"
+                        },
+                        "originalText": {
+                            "text": "My dad had an account with them. He passed away and I wanted to take the money he had in his account by inheritance I submitted all the documents they asked for and I talked to the director of banque. The process took two months after I visited the agency seven time because the staff they don't know what to do also the process is so stupid and so long and staff work there makes it worse. If you have money don't put them in this bank. They make it easy when you want to open an account or make a deposit but the service or if you need help with something there nobody going to help.",
+                            "languageCode": "en"
+                        },
+                        "authorAttribution": {
+                            "displayName": "Ayoub Hanssali",
+                            "uri": "https://www.google.com/maps/contrib/115014776467783885743/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV1Sq6t3iMC_I5U9qCNPSr0o2dEMSAZlW8eUoBHa9_qqVZbRus=s128-c0x00000000-cc-rp-mo"
+                        },
+                        "publishTime": "2024-07-09T22:29:41.386536Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNyamRUZTd3RRAB&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNyamRUZTd3RRAB!2m1!1s0xda7d2e6ee04595d:0xf2e164cc86a70f4a"
+                    },
+                    {
+                        "name": "places/ChIJXVkE7ubSpw0RSg-nhsxk4fI/reviews/ChdDSUhNMG9nS0VJQ0FnSUNIX29hM2pBRRAB",
+                        "relativePublishTimeDescription": "6 months ago",
+                        "rating": 1,
+                        "text": {
+                            "text": "Have you ever heard an agent at a bank say \u201cget out of my house\u201d? after refusing to let a newly arrived customer pass through your place? you who waited more than 20 minutes? WELCOME TO THE AGENCY OF THE BANQUE POPULAIRE ROMANDIE DE CASABLANCA. I was told to \"see what I can do against her\", an attitude devoid of any form of professionalism. What makes this situation even more disturbing is that wearing my veil was inappropriately mentioned during the exchange, suggesting discrimination based on my appearance.\n\nDespite this, no apology was offered to me, and the staff clearly showed a complete lack of empathy and consideration for my experience, as well as defying me that no action could be taken against him and continued what they were doing without any respect.\n\nIt is essential that all customers, without distinction, are treated with dignity and respect.",
+                            "languageCode": "en-US"
+                        },
+                        "originalText": {
+                            "text": "Avez-vous d\u00e9j\u00e0 entendu un agent dans une banque qui vous dit \u00absors de chez moi\u00bb? apr\u00e8s avoir refus\u00e9 de laisser faire passer un client fra\u00eechement arriv\u00e9 \u00e0 votre place? vous qui avez attendu plus de 20 minutes? BIENVENUE \u00c0 L'AGENCE DE LA BANQUE POPULAIRE ROMANDIE DE CASABLANCA . On m'a r\u00e9torqu\u00e9 de \u00ab voir ce que je peux faire contre elle \u00bb, une attitude d\u00e9nu\u00e9e de toute forme de professionnalisme.Ce qui rend cette situation encore plus troublante, c'est que le port de mon voile a \u00e9t\u00e9 mentionn\u00e9 de mani\u00e8re d\u00e9plac\u00e9e au cours de l'\u00e9change, sugg\u00e9rant une discrimination bas\u00e9e sur mon apparence.\n\nMalgr\u00e9 cela, aucune excuse ne m'a \u00e9t\u00e9 pr\u00e9sent\u00e9e, et le personnel a clairement montr\u00e9 un manque total d'empathie et de consid\u00e9ration pour mon exp\u00e9rience, en plus de me d\u00e9fier qu'aucune mesure ne pourra \u00eatre prise \u00e0 son \u00e9gard et continue ce qu' il faisait sans aucun respect.\n\nIl est primordial que tous les clients, sans distinction, soient trait\u00e9s avec dignit\u00e9 et respect.",
+                            "languageCode": "fr"
+                        },
+                        "authorAttribution": {
+                            "displayName": "ghita ghita",
+                            "uri": "https://www.google.com/maps/contrib/103263303420839963152/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocK3ufdW2km6-rW6OQ2JWVIW-vv-HHu2OQAjKCe2Hg9W_E-rOw=s128-c0x00000000-cc-rp-mo"
+                        },
+                        "publishTime": "2024-09-05T13:59:33.522219Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNIX29hM2pBRRAB&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNIX29hM2pBRRAB!2m1!1s0xda7d2e6ee04595d:0xf2e164cc86a70f4a"
+                    },
+                    {
+                        "name": "places/ChIJXVkE7ubSpw0RSg-nhsxk4fI/reviews/ChdDSUhNMG9nS0VJQ0FnSUNMdTliQjBnRRAB",
+                        "relativePublishTimeDescription": "8 months ago",
+                        "rating": 1,
+                        "text": {
+                            "text": "Personally, I think that there are many points to improve, notably awareness of the role of the banker and a sense of service as well as customer relationship management to improve the customer experience. I believe this is the basis in this sector of activity.\n\nUnfortunately, during your visit you will notice that the staff of this agency always seem overwhelmed by back office tasks. So, at a simple different request, he sends you back to come back another day as if it's an unpleasant and additional task for him that he didn't plan to do.\n\nAnd the worst thing is that if you want to get the information by phone it's impossible. No one answers telephone calls to the agency's landline at any time of the day and to all its numbers.\n\nA back and forth which is unpleasant and which wastes time for everyone but above all the relationship of trust which is supposed to be established with the banker.\n\nTo the wise...",
+                            "languageCode": "en-US"
+                        },
+                        "originalText": {
+                            "text": "Personnellement, je pense qu'il y a bien des points \u00e0 am\u00e9liorer notamment la sensibilisation au r\u00f4le du banquier et le sens du service ainsi que  la gestion de la relation client\u00e8le pour am\u00e9liorer l'exp\u00e9rience clients. Je crois que c'est la base dans ce secteur d'activit\u00e9.\n\nMalheureusement, \u00e0 votre passage vous allez constat\u00e9 que le personnel de cette agence semble toujours d\u00e9bord\u00e9 par des t\u00e2ches en backoffice. Du coup, \u00e0 une simple demande diff\u00e9rente, il vous renvoie pour revenir un autre jour comme si c'est une t\u00e2che d\u00e9sagr\u00e9able et suppl\u00e9mentaire pour lui qu'il n'a pas pr\u00e9vu de faire.\n\nEt le pire est que si vous voulez avoir l'information par t\u00e9l\u00e9phone c'est impossible. Personne ne r\u00e9pond aux appels t\u00e9l\u00e9phoniques au fixe de l'agence \u00e0 tout moment de la journ\u00e9e et \u00e0 tous ses num\u00e9ros.\n\nUn va et vient qui est d\u00e9sagr\u00e9able et qui fait perdre du temps pour tout le monde mais surtout la relation de confiance qui est sens\u00e9e \u00eatre \u00e9tablie avec le banquier.\n\nA bon entendeur..",
+                            "languageCode": "fr"
+                        },
+                        "authorAttribution": {
+                            "displayName": "amina rami",
+                            "uri": "https://www.google.com/maps/contrib/111428606332351613871/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIfnm0Etb7Xwj1fgmVZLDmICF-MvlICJKoHaq5WMSIWjpqV-Q=s128-c0x00000000-cc-rp-mo-ba4"
+                        },
+                        "publishTime": "2024-06-23T12:40:24.748497Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNMdTliQjBnRRAB&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNMdTliQjBnRRAB!2m1!1s0xda7d2e6ee04595d:0xf2e164cc86a70f4a"
+                    },
+                    {
+                        "name": "places/ChIJXVkE7ubSpw0RSg-nhsxk4fI/reviews/ChZDSUhNMG9nS0VJQ0FnSURHbVlpVFl3EAE",
+                        "relativePublishTimeDescription": "3 years ago",
+                        "rating": 2,
+                        "text": {
+                            "text": "I thought it was a modern bank with real added value in the customer journey, particularly thanks to the digital advances of their platform. Unfortunately, from a customer relations point of view we could hardly do worse, especially for customers who do not live in Morocco. Contacting the agency is a real ordeal: the phone never picks up, the advisors leave their cell phones with you but very rarely respond (with endless delays). When your advisor is on vacation or overwhelmed, he or she refers you to the agency director. This promises to process your requests then blocks your number... Cutting short any hope of communication.\nOnly small mishaps that say a lot about the level of respect for customers and the values \u200b\u200bof the bank (of the agency at least). For me, this will be enough to explore the market and change banks.",
+                            "languageCode": "en-US"
+                        },
+                        "originalText": {
+                            "text": "Je pensais que c'\u00e9tait une banque \u00e0 l'air du temps avec une vraie plus-value sur le parcours client, notamment gr\u00e2ce aux avanc\u00e9es digitales de leur plate-forme. Malheureusement, d'un point de vue relation client on peut difficilement faire pire, surtout pour les clients n'habitant pas au Maroc. Le contact avec l'agence est un vrai calvaire : le t\u00e9l\u00e9phone ne d\u00e9croche jamais, les conseillers vous laissent leur mobile mais ne r\u00e9pondent que tr\u00e8s rarement (avec des d\u00e9lais interminables). Lorsque votre conseiller est en cong\u00e9s ou d\u00e9pass\u00e9, il vous renvoie vers la directrice d'agence. Celle-ci \u200bvous promet de traiter vos demandes puis bloque votre num\u00e9ro... Coupant court \u00e0 tout espoir de communication.\nQue de petites m\u00e9saventures qui en disent long sur le niveau de respect des clients et les valeurs de la banque (de l'agence du moins). Pour moi, ce sera suffisant pour sonder le march\u00e9 et changer de banque.",
+                            "languageCode": "fr"
+                        },
+                        "authorAttribution": {
+                            "displayName": "Younes Android",
+                            "uri": "https://www.google.com/maps/contrib/105057595301072339042/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocI7PbraTuD-C_2cFqyNFC6B29FcgIz6NqQLBofnSpH_lC6IJQ=s128-c0x00000000-cc-rp-mo-ba3"
+                        },
+                        "publishTime": "2021-12-02T17:44:49.881159Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURHbVlpVFl3EAE&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURHbVlpVFl3EAE!2m1!1s0xda7d2e6ee04595d:0xf2e164cc86a70f4a"
+                    },
+                    {
+                        "name": "places/ChIJXVkE7ubSpw0RSg-nhsxk4fI/reviews/ChdDSUhNMG9nS0VJQ0FnSUR1aHJ6VXNBRRAB",
+                        "relativePublishTimeDescription": "2 years ago",
+                        "rating": 1,
+                        "text": {
+                            "text": "A disaster for this agency, to be avoided.\nI've been stuck for over a month, I've done everything possible to resolve the problem but to no avail.\nAn irresponsible pseudo director, who can't even resolve a small system problem to resolve the situation.\nTruly a shame for the BCP.",
+                            "languageCode": "en-US"
+                        },
+                        "originalText": {
+                            "text": "Un catastrophe cette agence , \u00e0 \u00e9viter.\nJe suis bloqu\u00e9 depuis plus d' un mois , j ai fais l impossible pour r\u00e9gler le probl\u00e8me mais en vain.\nUne pseudo directrice irresponsable, qui n arrive m\u00eame pas a r\u00e9gler un petit probl\u00e8me de syst\u00e8me pour d\u00e9bloquer la situation.\nVraiment une honte pour la BCP.",
+                            "languageCode": "fr"
+                        },
+                        "authorAttribution": {
+                            "displayName": "redouane belkorchi",
+                            "uri": "https://www.google.com/maps/contrib/115085212258238375255/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV-mU-g8Yceh3YNs4ClF5ji_KvsGOfa1gWLD_1mhhhun6sK3Ll9=s128-c0x00000000-cc-rp-mo"
+                        },
+                        "publishTime": "2022-08-19T08:30:46.532924Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUR1aHJ6VXNBRRAB&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUR1aHJ6VXNBRRAB!2m1!1s0xda7d2e6ee04595d:0xf2e164cc86a70f4a"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJKbAGBebSpw0R6awT43pA38Q",
+                "types": [
+                    "bank",
+                    "finance",
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "formattedAddress": "2, Avenue Moulay Rachid Casablanca, El Maarif 20100, Morocco",
+                "location": {
+                    "latitude": 33.5883463,
+                    "longitude": -7.6443332
+                },
+                "rating": 4,
+                "websiteUri": "http://www.gbp.ma/",
+                "displayName": {
+                    "text": "Banque Populaire El Khatabi",
+                    "languageCode": "fr"
+                },
+                "reviews": [
+                    {
+                        "name": "places/ChIJKbAGBebSpw0R6awT43pA38Q/reviews/ChdDSUhNMG9nS0VJQ0FnSURBX0tlbHJBRRAB",
+                        "relativePublishTimeDescription": "7 years ago",
+                        "rating": 4,
+                        "text": {
+                            "text": "Competent staff",
+                            "languageCode": "en-US"
+                        },
+                        "originalText": {
+                            "text": "Personnel comp\u00e9tent",
+                            "languageCode": "fr"
+                        },
+                        "authorAttribution": {
+                            "displayName": "Mohamed Amine Benyezza Ettaghi",
+                            "uri": "https://www.google.com/maps/contrib/112470840389568688579/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUyUtzqFYRR4p-zx4P3SckTTfSj3h_RogLSOdj0xFhJwfBC0hBTGA=s128-c0x00000000-cc-rp-mo-ba6"
+                        },
+                        "publishTime": "2017-12-27T13:57:27.753Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURBX0tlbHJBRRAB&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURBX0tlbHJBRRAB!2m1!1s0xda7d2e60506b029:0xc4df407ae313ace9"
+                    },
+                    {
+                        "name": "places/ChIJKbAGBebSpw0R6awT43pA38Q/reviews/ChZDSUhNMG9nS0VJQ0FnSURvbDRfeEtBEAE",
+                        "relativePublishTimeDescription": "5 years ago",
+                        "rating": 4,
+                        "authorAttribution": {
+                            "displayName": "Mouhcine Boss",
+                            "uri": "https://www.google.com/maps/contrib/110402018196523961467/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUUZAibGZElu3y2fbAsjHE4PEAZd08BQZ6m50SjDsgvZJ3uPAbk=s128-c0x00000000-cc-rp-mo-ba7"
+                        },
+                        "publishTime": "2019-03-24T17:28:56.669916Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSURvbDRfeEtBEAE&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSURvbDRfeEtBEAE!2m1!1s0xda7d2e60506b029:0xc4df407ae313ace9"
+                    }
+                ]
+            },
+            {
+                "name": "places/ChIJc2XF7NrSpw0Rozs58iDtnBE",
+                "types": [
+                    "bank",
+                    "finance",
+                    "point_of_interest",
+                    "establishment"
+                ],
+                "formattedAddress": "2, Ang. Y.el Mansour & Rue Acacias, El Maarif 20100, Morocco",
+                "location": {
+                    "latitude": 33.572918,
+                    "longitude": -7.645775999999999
+                },
+                "rating": 2.4,
+                "displayName": {
+                    "text": "Banque Populaire Yacoub El Mansour",
+                    "languageCode": "fr"
+                },
+                "reviews": [
+                    {
+                        "name": "places/ChIJc2XF7NrSpw0Rozs58iDtnBE/reviews/ChdDSUhNMG9nS0VJQ0FnSUR1c3FhbHNnRRAB",
+                        "relativePublishTimeDescription": "2 years ago",
+                        "rating": 1,
+                        "text": {
+                            "text": "An agency of M..... I have been waiting for at least 1h30mn. The agents talk on the phone constantly. One of them went outside to continue talking to his beloved \ud83d\ude27 A service from the Third World. Sorry that we still find this kind of service in Morocco.",
+                            "languageCode": "en-US"
+                        },
+                        "originalText": {
+                            "text": "Une agence de M..... Je suis en attente depuis au moins 1h30mn. Les agents parlent au t\u00e9l\u00e9phone sans cesse. Un d'eux est sorti dehors pour continuer \u00e0 parler \u00e0 sa bien-aim\u00e9e \ud83d\ude27 Un service du Tiers-Monde. D\u00e9sol\u00e9 qu'on trouve encore ce genre de service au Maroc.",
+                            "languageCode": "fr"
+                        },
+                        "authorAttribution": {
+                            "displayName": "Chafik Bouhaddioui",
+                            "uri": "https://www.google.com/maps/contrib/111872678342724627772/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIguJuswZX0X-0iadsM19gdJmWMji-LGQemltqyjk6pHodsOA=s128-c0x00000000-cc-rp-mo"
+                        },
+                        "publishTime": "2022-08-17T13:51:24.476531Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUR1c3FhbHNnRRAB&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUR1c3FhbHNnRRAB!2m1!1s0xda7d2daecc56573:0x119ced20f2393ba3"
+                    },
+                    {
+                        "name": "places/ChIJc2XF7NrSpw0Rozs58iDtnBE/reviews/ChdDSUhNMG9nS0VJQ0FnSUNqNC1qamx3RRAB",
+                        "relativePublishTimeDescription": "10 months ago",
+                        "rating": 1,
+                        "text": {
+                            "text": "I requested a withdrawal of a small amount and the cashier refused (because I have the account in another agency) even though I have every right to withdraw my money from any agency in Morocco.\nLousy and arrogant cashier",
+                            "languageCode": "en-US"
+                        },
+                        "originalText": {
+                            "text": "J'ai demand\u00e9 un retrait d'un petit montant le caissier \u00e0 refuser (cause j'ai le compte dans une autre agence ) alors que j'ai tout le droit de retirer mon argent de n'importe quel agence au maroc.\nCaissier Null et arrogant",
+                            "languageCode": "fr"
+                        },
+                        "authorAttribution": {
+                            "displayName": "safae hammani",
+                            "uri": "https://www.google.com/maps/contrib/101471139662777885258/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWLMy6VSpKSUeZY1bO7J-XEQRqaaigrf3VardxX6PMAPQMobx4=s128-c0x00000000-cc-rp-mo"
+                        },
+                        "publishTime": "2024-04-25T08:47:07.507140Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSUNqNC1qamx3RRAB&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSUNqNC1qamx3RRAB!2m1!1s0xda7d2daecc56573:0x119ced20f2393ba3"
+                    },
+                    {
+                        "name": "places/ChIJc2XF7NrSpw0Rozs58iDtnBE/reviews/ChZDSUhNMG9nS0VJQ0FnSUQ2aTYtdWJREAE",
+                        "relativePublishTimeDescription": "3 years ago",
+                        "rating": 3,
+                        "text": {
+                            "text": "I always call the number provided for information but no one answers the phone. Please reinforce this point. On the other hand, when I show up at the agency, the account manager is professional and friendly.",
+                            "languageCode": "en-US"
+                        },
+                        "originalText": {
+                            "text": "J\u2019appelle toujours au num\u00e9ro indiqu\u00e9 pour avoir des renseignements mais personne ne r\u00e9ponds \u00e0 l\u2019appareil. Merci de renforcer ce point. Par contre, quand je me pr\u00e9sente \u00e0 l\u2019agence , le charg\u00e9 de client\u00e8le est pro et sympa.",
+                            "languageCode": "fr"
+                        },
+                        "authorAttribution": {
+                            "displayName": "Kenza Oudrhiri",
+                            "uri": "https://www.google.com/maps/contrib/103091271424512616379/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLx_qq0K62FAHmLpK7Bf9PZ4Wndtg5XeLZ-hD20tNOtkMHUWL0=s128-c0x00000000-cc-rp-mo"
+                        },
+                        "publishTime": "2021-10-11T11:14:26.246563Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChZDSUhNMG9nS0VJQ0FnSUQ2aTYtdWJREAE&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChZDSUhNMG9nS0VJQ0FnSUQ2aTYtdWJREAE!2m1!1s0xda7d2daecc56573:0x119ced20f2393ba3"
+                    },
+                    {
+                        "name": "places/ChIJc2XF7NrSpw0Rozs58iDtnBE/reviews/ChdDSUhNMG9nS0VJQ0FnSURCeGFtSWhnRRAB",
+                        "relativePublishTimeDescription": "2 years ago",
+                        "rating": 1,
+                        "text": {
+                            "text": "Always No response to phone, it\u2019s not normal.\n\nSure this agency.",
+                            "languageCode": "en-US"
+                        },
+                        "originalText": {
+                            "text": "Tjr Pas de reponse au tel c pas normal .\n\nSr tt cet agence .",
+                            "languageCode": "fr"
+                        },
+                        "authorAttribution": {
+                            "displayName": "azizzoo azizoo",
+                            "uri": "https://www.google.com/maps/contrib/105504908845467819462/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL5ygrwxsWagO5mKYOTUlFamFSoEsLCS3Xmv-e-uPMq_vzcCg=s128-c0x00000000-cc-rp-mo-ba4"
+                        },
+                        "publishTime": "2023-01-24T12:04:35.827085Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURCeGFtSWhnRRAB&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURCeGFtSWhnRRAB!2m1!1s0xda7d2daecc56573:0x119ced20f2393ba3"
+                    },
+                    {
+                        "name": "places/ChIJc2XF7NrSpw0Rozs58iDtnBE/reviews/ChdDSUhNMG9nS0VJQ0FnSURtMDhiY3RBRRAB",
+                        "relativePublishTimeDescription": "3 years ago",
+                        "rating": 2,
+                        "text": {
+                            "text": "Hello, no answer on the phone",
+                            "languageCode": "en-US"
+                        },
+                        "originalText": {
+                            "text": "Bonjour pas de reponse au telephone",
+                            "languageCode": "fr"
+                        },
+                        "authorAttribution": {
+                            "displayName": "Bimbo Mimi",
+                            "uri": "https://www.google.com/maps/contrib/102845570268396094685/reviews",
+                            "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJD4HcMr-Ne66ksXTTOyx-rgIY00DRFAUnOwT5yvkSDn6hSvQ=s128-c0x00000000-cc-rp-mo"
+                        },
+                        "publishTime": "2022-02-08T13:25:53.848427Z",
+                        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=ChdDSUhNMG9nS0VJQ0FnSURtMDhiY3RBRRAB&d=17924085&t=1",
+                        "googleMapsUri": "https://www.google.com/maps/reviews/data=!4m6!14m5!1m4!2m3!1sChdDSUhNMG9nS0VJQ0FnSURtMDhiY3RBRRAB!2m1!1s0xda7d2daecc56573:0x119ced20f2393ba3"
+                    }
+                ]
+            }
+        ]
+    }
+]

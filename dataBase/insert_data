@@ -1,0 +1,74 @@
+import json
+from connection import get_db_connection
+
+def insert_data_from_json(file_path):
+    """Insert data from a JSON file into the PostgreSQL database."""
+    connection = None  # Initialize the connection variable
+    try:
+        # Try reading the file with different encodings
+        try:
+            with open(file_path, "r", encoding='utf-8') as file:
+                data = json.load(file)
+        except UnicodeDecodeError:
+            # If UTF-8 fails, try with Latin-1 encoding which is more permissive
+            with open(file_path, "r", encoding='latin-1') as file:
+                data = json.load(file)
+                
+        # Get the database connection
+        connection = get_db_connection()
+        cursor = connection.cursor()
+        
+        # Define the SQL query for inserting data
+        insert_query = """
+        INSERT INTO bank (name, branch_name, global_rating, location)
+        VALUES (%s, %s, %s, %s)
+        """
+        
+        # Insert each record into the database
+        records_inserted = 0
+        for record in data:
+            # Ensure the keys exist in the record to avoid KeyError
+            if "formattedAddress" in record and "displayName" in record and "rating" in record:
+                # Process the branch name correctly
+                address_parts = record["formattedAddress"].split(",")
+                branch = address_parts[0]
+                if len(address_parts) > 1:
+                    branch += address_parts[1]
+                
+                name = record["displayName"]["text"]
+                
+                # Sanitize data before insertion
+                branch = name+" "+branch.strip() if branch else ""
+                name = name.strip() if name else ""
+                rating = record["rating"] if "rating" in record else None
+                location = record["formattedAddress"].strip() if record["formattedAddress"] else ""
+                
+                cursor.execute(insert_query, (name, branch, rating, location))
+                records_inserted += 1
+            else:
+                print(f"Missing data in record: {record}")
+        
+        # Commit the transaction
+        connection.commit()
+        print(f"Data successfully inserted into the database. {records_inserted} records inserted.")
+    
+    except UnicodeDecodeError as decode_error:
+        print(f"Unicode decode error: {decode_error}")
+    except json.JSONDecodeError as json_error:
+        print(f"JSON decode error: {json_error}")
+    except Exception as error:
+        print(f"Error inserting data: {error}")
+        # If connection exists, rollback any partial transaction
+        if connection:
+            connection.rollback()
+    
+    finally:
+        # Close the database connection if it was opened
+        if connection:
+            cursor.close()
+            connection.close()
+            print("PostgreSQL connection closed.")
+
+# Call the function with the path to your JSON file
+if __name__ == "__main__":
+    insert_data_from_json("banques.json")
