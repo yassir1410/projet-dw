@@ -6,14 +6,10 @@ def insert_data_from_json(file_path):
     connection = None  # Initialize the connection variable
     try:
         # Try reading the file with UTF-8 encoding
-        try:
-            with open(file_path, "r", encoding='utf-8') as file:
-                data = json.load(file)
-        except UnicodeDecodeError as decode_error:
-            print(f"Unicode decode error: {decode_error}")
-            return  # Exit early if there's a decode error
+        with open(file_path, "r", encoding='utf-8') as file:
+            data = json.load(file)
 
-        # Get the database connection
+        # Get the database connection (ensure it's set to use UTF-8 encoding)
         connection = get_db_connection()
         cursor = connection.cursor()
 
@@ -39,24 +35,15 @@ def insert_data_from_json(file_path):
 
                 name = record.get("displayName", {}).get("text", "")
 
-                # Sanitize data before insertion: remove or replace invalid UTF-8 characters
-                def sanitize_text(text):
-                    if not text:
-                        return ""
-                    return ''.join([char if ord(char) < 128 else '' for char in text])
-
-                branch = sanitize_text(name + " " + branch.strip())
-                name = sanitize_text(name.strip())
-                location = sanitize_text(record["formattedAddress"].strip())
+                # Clean the data
+                branch = name + " " + branch.strip()
+                name = name.strip()
+                location = record["formattedAddress"].strip()
 
                 # Handle possible missing ratings
                 rating = record["rating"] if "rating" in record else None
 
-                # Encode data to UTF-8 (ignoring non-UTF-8 characters)
-                name = name.encode('utf-8', 'ignore').decode('utf-8')
-                branch = branch.encode('utf-8', 'ignore').decode('utf-8')
-                location = location.encode('utf-8', 'ignore').decode('utf-8')
-
+                # Insert data into the database
                 cursor.execute(insert_query, (name, branch, rating, location))
                 records_inserted += 1
             else:

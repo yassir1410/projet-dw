@@ -1,7 +1,7 @@
 import json
 
 # Étape 1 : Lire un fichier JSON
-with open('res2.json', 'r') as file:
+with open('results.json', 'r') as file:
     data = json.load(file)
 
 
@@ -26,11 +26,8 @@ else:
             print("Key 'places' not found in response:", response)
 
 # Write the result to a JSON file
-with open("banques2.json", "w", encoding="utf-8") as json_file:
+with open("banques.json", "w", encoding="utf-8") as json_file:
     json.dump(banques, json_file, ensure_ascii=False, indent=4)
 
-print("Data has been written to 'banques2.json'.")
+print("Data has been written to 'banques.json'.")
 # print(data[0]["places"][0]["rating"])
-
-print(len(banques))
-
