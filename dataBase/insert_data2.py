@@ -3,71 +3,94 @@ from connection import get_db_connection
 
 def insert_data_from_json(file_path):
     """Insert data from a JSON file into the PostgreSQL database."""
-    connection = None  # Initialize the connection variable
+    connection = None
     try:
-        # Try reading the file with UTF-8 encoding
         with open(file_path, "r", encoding='utf-8') as file:
             data = json.load(file)
 
-        # Get the database connection (ensure it's set to use UTF-8 encoding)
         connection = get_db_connection()
         cursor = connection.cursor()
 
-        # Define the SQL query for inserting data
-        insert_query = """
+        insert_bank_query = """
         INSERT INTO bank (name, branch_name, global_rating, location)
         VALUES (%s, %s, %s, %s)
+        RETURNING bank_id
         """
 
-        # Insert each record into the database
-        records_inserted = 0
-        for record in data:
-            # Debugging output
-            print(f"Processing record: {record}")
+        insert_review_query = """
+        INSERT INTO review (review_text, rating, display_name, review_date, bank_id)
+        VALUES (%s, %s, %s, %s, %s)
+        """
 
-            # Ensure the keys exist in the record to avoid KeyError
-            if "formattedAddress" in record and "rating" in record:
-                # Process the branch name correctly
+        records_inserted = 0
+        reviews_inserted = 0
+        
+        # Check if data is a list or a single dictionary
+        records = data if isinstance(data, list) else [data]
+        
+        for record in records:
+            print("\nProcessing bank record:")
+            print(json.dumps(record, indent=2, ensure_ascii=False))
+
+            if "formattedAddress" in record:
+                # Process bank data
                 address_parts = record["formattedAddress"].split(",")
                 branch = address_parts[0] if address_parts else ""
                 if len(address_parts) > 1:
                     branch += address_parts[1]
 
                 name = record.get("displayName", {}).get("text", "")
-
-                # Clean the data
-                branch = name + " " + branch.strip()
+                branch = f"{name} {branch.strip()}".strip()
                 name = name.strip()
                 location = record["formattedAddress"].strip()
+                rating = record.get("rating")
 
-                # Handle possible missing ratings
-                rating = record["rating"] if "rating" in record else None
+                print(f"\nInserting bank: {name} | {branch} | {rating} | {location}")
 
-                # Insert data into the database
-                cursor.execute(insert_query, (name, branch, rating, location))
+                cursor.execute(insert_bank_query, (name, branch, rating, location))
+                bank_id = cursor.fetchone()[0]
                 records_inserted += 1
-            else:
-                print(f"Missing data in record: {record}")
+                print(f"Inserted bank with ID: {bank_id}")
 
-        # Commit the transaction
+                # Process reviews
+                if "reviews" in record:
+                    print(f"\nFound {len(record['reviews'])} reviews for this bank")
+                    for i, review in enumerate(record["reviews"], 1):
+                        review_text = review.get("text", {}).get("text", "")
+                        review_rating = review.get("rating")
+                        display_name = review.get("authorAttribution", {}).get("displayName", "Anonymous")
+                        review_date = review.get("publishTime", "")[:10]  # YYYY-MM-DD
+                        
+                        print(f"\nReview {i}:")
+                        print(f"Rating: {review_rating}")
+                        print(f"Author: {display_name}")
+                        print(f"Date: {review_date}")
+                        print(f"Text: {review_text[:50]}...")  # Print first 50 chars
+
+                        if review_text:  # Only insert if there's review text
+                            cursor.execute(insert_review_query, 
+                                         (review_text, review_rating, display_name, review_date, bank_id))
+                            reviews_inserted += 1
+                            print("Review inserted successfully")
+                        else:
+                            print("Skipping review - empty text")
+                else:
+                    print("No reviews found for this bank")
+
         connection.commit()
-        print(f"Data successfully inserted into the database. {records_inserted} records inserted.")
+        print(f"\nSummary: {records_inserted} bank records and {reviews_inserted} reviews inserted.")
 
     except json.JSONDecodeError as json_error:
         print(f"JSON decode error: {json_error}")
     except Exception as error:
         print(f"Error inserting data: {error}")
-        # If connection exists, rollback any partial transaction
         if connection:
             connection.rollback()
-
     finally:
-        # Close the database connection if it was opened
         if connection:
             cursor.close()
             connection.close()
             print("PostgreSQL connection closed.")
 
-# Call the function with the path to your JSON file
 if __name__ == "__main__":
     insert_data_from_json("banques2.json")

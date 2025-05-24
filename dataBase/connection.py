@@ -15,7 +15,8 @@ def get_db_connection():
             user="postgres",
             password="yassir123",
             # Try a different encoding that might handle the problematic characters
-            options="-c client_encoding=LATIN1"
+            options="-c client_encoding=LATIN1",
+            client_encoding='utf8'
         )
         
         # Don't explicitly set encoding after connection
